@@ -1,0 +1,183 @@
+
+@media screen and (min-width:720px) {  
+body {
+    margin: 0;
+  }
+container{
+    position: relative;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.profile-header{
+    position: relative;
+    top:0;
+    left:0;
+    /* margin-bottom: 0.5rem; */
+}
+
+.header-image{
+    position: relative;
+    top:0;
+    left:0;
+    /* Veränderbare Bildgröße */
+    max-width: 100%;
+    max-height: 220%;
+    border-radius: .25rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    justify-content: center;
+
+    border-bottom: 8rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: white;
+
+    z-index: 1;
+}
+   
+.profile-picture{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    /* Vordergrund */
+    z-index: 3;
+
+    /* runde form */
+    border-radius: 50%; 
+
+    /* Größe */
+    height: 10rem;
+    width: 10rem;
+
+    /* Profilbild laden */
+    background-image: url('Profile_picture.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /* Rand des Profilbildes einstellen */
+    border-style: solid;
+    border-color: #08601B;
+    border-width: 3px;
+}
+.Profile-name {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 2;
+    font-size: 150%;
+  }
+.interests-background{
+    height: 12rem;
+    width: 100%;
+
+    border-radius: .25rem;
+    border-style: none;
+    background-color: white;
+    z-index: 1;
+
+    margin-top: 1.5rem;
+    position: absolute;
+  }
+.interests-label {
+    position: absolute;
+    left: 5%;
+    margin-top: 2rem;
+    z-index: 2;
+  }
+
+.interests-pictures{
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-width: 3px;
+
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    margin-left: 7%;
+    margin-top: 5rem;
+    
+    display: inline-block; /* nebeneinander darstellen */
+    position: relative;
+    z-index: 3;
+}
+
+.personal-settings-header, .fotos-header{
+    width: 40%;
+    background-color: #EFD965;
+    border-color: #EFD965;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight:bolder;
+    width: 40%;
+    height: 2.5rem;
+    margin-top: 3rem;
+}
+.setting-head-label, .fotos-head-label {
+    position: absolute;
+
+    margin-top: .5rem;
+    z-index: 2;
+    text-align: justify;
+}
+.setting-head-label{
+    left: 2%;
+}
+.fotos-head-label {
+    left: 55%;
+}
+
+.personal-settings-content .fotos-content{
+    width: 40%;
+}
+.setting-background, .fotos-background{
+    height: 12rem;
+    width: 40%;
+
+    border-radius: .25rem;
+    border-style: none;
+    background-color: white;
+    z-index: 1;
+
+    margin-top: 0.5rem;
+    position: absolute;
+  }
+  .fotos-background{
+    /* position: absolute; */
+    left: 55%;
+  }
+
+  .setting-label {
+    position: absolute;
+    left: 2%;
+    margin-top: 1rem;
+    z-index: 2;
+    color: #08601B;
+  }
+  .setting-field{
+    z-index: 2;
+    position: absolute;
+    left: 17%;
+    width: 22%;
+    border-style: none;
+    margin-top: 1rem;
+    color: #08601B;
+  }
+
+
+/* Klammer von Screen-Einstellungen */
+}

@@ -1,0 +1,33 @@
+body,
+html {
+    /* der Rest in header_footer.css */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: #CAE3BD; */
+  background-image: url('landing.jpeg');
+  background-position: center center;
+  justify-content: center;
+}
+
+.slogan{
+    font-size: 300%;
+    margin: 18rem 1rem 0rem 2rem;
+    color:  white;  
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.Grund {
+  font-size: 200%;
+  padding: 0rem 0rem 1rem 3rem;
+  text-align: center;
+  font-family: 'Dancing Script', sans-serif;
+  color:  white;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Comfortaa', sans-serif;
+  background-color: #A8D194;
+}
+
+header, 
+footer{
+  min-height:1rem;
+  background-color: #F8F1DF;
+  font-size: .6rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.pre_footer{
+  height: 50px;
+}
+
+footer{
+  background-color: #F6F5EE;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+.Logo-size{
+  font-size: 1rem;
+}
+
+.Header-box{
+  background-color: #EFD965;
+  border-color: #EFD965;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: .5rem;
+  font-weight:bolder;
+  width: 4rem;
+  height: 1.5rem;
+}
+
+.login{
+  text-align: center;
+  align-items: center;
+}
+.navbar li{
+  padding-left:1rem ;
+}
+.sicherheitsabfrage-label {
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;    
+}
+
+#pwansw {
+    width: 27rem;
+}
+
+.sicherheitsantwort-label {
+    text-align: center;
+}
