@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+              crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="header_footer.css">
+    <link rel="stylesheet" type="text/css" href="logIn.css">
+
+    <script src="https://kit.fontawesome.com/5893e6e5f7.js" crossorigin="anonymous"></script> 
+	<!-- Logo Nolone -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-nav">
+          <div class="container-fluid">
+            <div class="header_brand_logo">
+                <span class ="Logo-size"><i class="fa-solid fa-people-group"></i>
+                 <a class="header_brand_logoName" href="index.html">NoLone</a></span>
+            </div>
+            <ul class="nav navbar-default">
+              <li><a href="#">Über uns</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Hilfe</a></li>
+            </ul>
+            <ul class="nav navbar-right">
+              <li><button class = "Header-box">
+                  <a href="logIn.html">
+                      <span class="glyphicon glyphicon-log-in"></span>
+                        Login
+                  </a>
+                </button></li>
+              <li><button class = "Header-box">
+                      <a href="signIn.html">
+                          <span class="glyphicon glyphicon-user"></span> 
+                            Sign Up
+                    </a>
+                </button></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <form method="post">
+        <article class = "login">
+            <h1 class = "slogan">
+                Willkommen zurück
+            </h1>
+            <section>
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <label for="email">E-Mail-Adresse</label>
+                            <div class="input-group">
+                                <div class="input-group-text"><i class="bi bi-envelope"></i></div>                              
+                                    <input type="email" class="form-control" id="email" class = "input-size" placeholder="" required>
+                                    <i class="bi bi-eye-slash"style="margin-left: -30px;margin-top: 10px;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <label for="password">Passwort</label>
+                            <div class="input-group">
+                                <div class="input-group-text"><i class="bi bi-key"></i></div>
+                                    <input type="password" class="form-control" id="password" placeholder="" class = "input-size" required>
+                                    <i class="bi bi-eye-slash eye" id="togglePassword"style="margin-left: -30px;margin-top: 10px;"></i>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </form>
+            
+
+                <label class = "alone"><a href="pwrequest.html">Passwort vergessen?</a></label><br>
+                <button type="button" class="btn btn-dark">Anmelden</button>
+            </section>
+            <section>
+                <h2>Bist du neu hier?</h2>
+                <button type="button" class="btn btn-dark">Registrieren</button>
+            </section>
+       </article>
+       
+    </form>
+
+   <div class="pre_footer"></div>
+   <footer>
+       <ul class="nav navbar-default">
+           <li><a href = "">Impressum</a></li>
+       </ul>
+   </footer>
+   <script src="SeePasswort.js"></script>
+
+</script>
+    
+</body>
+</html>
